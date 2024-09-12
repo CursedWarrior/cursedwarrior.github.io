@@ -3,20 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <meta name="description" content="Professional portfolio of [Your Name], a business leader and strategist.">
+    <meta name="author" content="[Your Name]">
+    <title>[Your Name] | Business Leader</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <div class="container">
+                <h1><a href="#home">[Your Name]</a></h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Introduce yourself here.</p>
+    
+    <section id="home">
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Welcome to My Professional Portfolio</h2>
+                <p>I am [Your Name], a dedicated business leader with a passion for driving growth and innovation.</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Projects</h2>
-        <p>Showcase your projects here.</p>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="your-photo.jpg" alt="[Your Name]">
+                <p>With over [X] years of experience in [Industry/Field], I have a proven track record of leading successful projects and achieving remarkable results. My expertise includes strategic planning, business development, and operational excellence.</p>
+                <p>I am committed to fostering innovation and driving growth. Explore my portfolio to see how I’ve applied my skills to achieve significant outcomes.</p>
+            </div>
+        </div>
     </section>
+    
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <!-- Example Portfolio Item -->
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of the project, highlighting your role and achievements.</p>
+                </div>
+                <!-- Add more portfolio items here -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-list">
+                <!-- Example Service -->
+                <div class="service-item">
+                    <h3>Service 1</h3>
+                    <p>Description of the service you offer, including key benefits and outcomes.</p>
+                </div>
+                <!-- Add more services here -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+                <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+                <!-- Add more social links here -->
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
