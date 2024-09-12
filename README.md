@@ -1,3 +1,4 @@
 ﻿# Aryan's Portfolio
-    cursedwarrior.github.io
+
+cursedwarrior.github.io
 
