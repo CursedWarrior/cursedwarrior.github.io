@@ -1,14 +1,9 @@
 <!-- 
 
-  Github Repo: 
-  My Website: 
+  For business & inquires, contact me => aryan.tiwari246@gmail.com
 
-  For business & inquires, contact me => aryantiwariusa@gmail.com
 -->
 
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,14 +13,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
+  <!-- Site title -->
   <title>
-    Aryan Tiwari | A business enthusiast
+    Aryan Tiwari | Home
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="description" content="Description.">
+  <meta name="keywords" content="Keywords" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -37,31 +31,78 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Aryan Tiwari</span>
+          <!-- Name -->
+          <span>Hi, I'm Aryan Tiwari</span>
         </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A business enthusiast.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>
+        <!-- Animated text -->
+         <span id="animated-text"></span><span class="cursor">|</span>
+        </p>
+        <a href="#contact" class="btn btn--blue">Get in touch</a>
       </div>
     </div>
   </header>
 
   <main role="main">
+
+    
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- About me -->
+            <p>
+              I'm currently pursuing MS in Business Analytics at University of Massachusetts, Amherst. Earlier, I worked at Cogneau Systems, an AI and Analytics startup, where I got the opportunity to lead development projects and design the security and alerts infrastructure.
+            </p>
+            <p>
+              For over 8 years, I have been exploring all that is tech. Now, I'm aiming for a level higher. My mission is to fuse technology with business to drive innovation in the field.
+            </p>
+            <!-- Resume -->
+            <a href="./files/resume.pdf" target="_blank" class="btn btn--blue" download>My Resume</a>
+          </div>
+          <div class="about__photo-container">
+            <!-- Photo to be added -->
+            <img class="about__photo" src="./images/photo.jpg" alt="" />
+          </div>
+        </div>
+        <br><br>
+          <button class="collapsible">More about me &#11206;</button>
+            <div class="collapsible_content">
+              <div class="wide__box">
+                <div class="wide__text">
+                  <!-- Collapsible box, more information -->
+                <h3>Value Proposition</h3>
+                <p>To be added</p>
+                </div>
+              </div>
+              <div class="wide__box">
+                <div class="wide__text">
+                <h3>My Mindset</h3>
+                <p>At my core, I am a curiosity driven person, fueled by passion, (WIP) </p>
+                </div>
+              </div>
+              <div class="wide__box">
+                <div class="wide__text">
+                <h3>Other hobbies</h3>
+                <p>Sometimes I like watching anime and reading novels (particularly mystery thrillers!).</p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </section>
 
     <!-- ***** Work ***** -->
 
@@ -70,136 +111,151 @@
         <h2>My Work</h2>
         <div class="work__boxes">
 
-          <!-- Each div with the work__box class is a project. -->
-
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>@Cogneau Systems Private Limited</h3>
+              <h1>Jan 2022 - Sep 2022</h1>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                Worked as a Product Intern and Developer:
               </p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>Developed NLP Microservice for company's chatbot.</li>
+                <li>Created WhatsApp Receiver and Sender microservices to integrate chatbot with WhatsApp</li>
+                <li>Created Data I/O microservice to store, retrieve and modify front-end data.</li>
+                <li>Improved the data pre-processing microservice to increase big data storage speed.</li>
+                <li>Managed AWS Workspaces for new interns to ensure smooth onboarding experience.</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://example.com" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/cursedwarrior" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                <a href="https://www.verdis.ai" target="_blank" class="link__text">
+                  Visit Company <span>&rarr;</span>
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/work-1.jpg" class="work__image" alt="Cogneau" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>@Cogneau Systems Private Limited</h3>
+              <h1>Dec 2023 - June 2024</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Worked as an Associate Consultant (Automation Solutions):
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Set up Confluence and Jira to enable seamless collaboration between teams.</li>
+                <li>Created scripts on AWS Lambda to automate AWS tasks.</li>
+                <li>Set up a robust emergency alerts infrastructure using OpsGenie, AWS and custom scripts.</li>
+                <li>Enhanced organisation's platform, network, cloud, and corporate security.</li>
+                <li>Interviewed candidates for technical intern positions at the company.</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://www.verdis.ai" target="_blank" class="link__text">
+                  Visit Company <span>&rarr;</span>
                 </a>
-                <a href="#">
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/work-2.jpg" class="work__image" alt="Cogneau" />
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Project: NubBot - A discord bot</h3>
+              <p>
+                I created a discord bot for my social/gaming community server with over 6,000 members. The bot had custom commands as per our needs.
+                <!-- Cats and dogs classifier, chatbot, fake news detection, twitter bot tba -->
+              </p>
+              <ul class="work__list">
+                <li>Included tools for admins, such as bulk delete, ban and chat moderation.</li>
+                <li>Added several utility and fun features for entertainment purposes.</li>
+                <li>The bot drove engagement in the server, increasing chat participation.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/CursedWarrior/NubBot.py" class="link__text" target="_blank">
+                  View Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/CursedWarrior/NubBot.py" target="_blank">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+              <img src="./images/discord.avif" class="work__image" alt="Discord bot" />
             </div>
           </div>
-
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Project: Generative chatbot using Seq2Seq model</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Developed a general purpose chatbot using the Cornell Movie-Dialog Corpus dataset (long before ChatGPT was a thing!)
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>The chatbot can be specialized according to an industry's requirements.</li>
+                <li>Achieved an accuracy of over 80% for prompts over 6 words.</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://www.kaggle.com/code/cursedwarrior/chatbot-project" target="_blank" class="link__text">
+                  View Code <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://www.kaggle.com/code/cursedwarrior/chatbot-project" target="_blank">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/chatbot-2.jpg" class="work__image" alt="Chatbot" />
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/photo.jpg" alt="" />
+          <button class="collapsible">More experiences &#11206;</button>
+          <div class="collapsible_content">
+              <p>More projects and internships to be added</p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- ***** Skills ***** -->
+
+    <section class="skill" id="skills">
+      <div class="row">
+        <h2>Skills & Certifications</h2>
+        <div class="skill__box">
+          <div class="skill__text">
+            <h3>Technical Skills</h3>
+            <ul class="work__list">
+              <li>Programming languages: Python, JavaScript, Shell Scripting, Java, C/C++, Dart (Flutter)</li>
+              <li>Frameworks: Node.js, Flask, Hadoop, Spring Boot, Apache Spark, Git</li>
+              <li>Cloud computing: AWS, GCP, Docker, Kubernetes</li>
+              <li>Databases: MongoDB, MySQL, MS Access</li>
+              <li>AI/ML: Tensorflow, Keras, Scikit-learn</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill__box">
+          <div class="skill__text">
+            <h3>Certifications</h3>
+            <ul class="work__list">
+              <li>BCG - Data Science Job Simulation <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/Tcz8gTtprzAS4xSoK_BCG_3bjHspyApor8BWYKr_1727999370386_completion_certificate.pdf" style="text-decoration: none;" target="_blank">&#8599;</a></li>
+              <li>Microsoft Technology Associate: Introduction to Programming using Python <a href="https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=395&cvid=X1oEziLfx9FEoAYDhPe9Cg==" style="text-decoration: none;" target="_blank">&#8599;</a></li>
+              <li>Linux Tools for Developer <a href="https://www.coursera.org/account/accomplishments/verify/XPFXXPTE522K" style="text-decoration: none;" target="_blank">&#8599;</a></li>
+              <li>Managing Big Data with MySQL <a href="https://www.coursera.org/account/accomplishments/verify/TZ24AUESHQ7M" style="text-decoration: none;" target="_blank">&#8599;</a></li>
+              <li>Introduction to Business Analytics <a href="https://www.linkedin.com/learning/certificates/ff9432356d3226808c61d930ac44a62c3bc99e6b1ed78a4c6a64b864a6c59bef?u=89183898" style="text-decoration: none;" target="_blank">&#8599;</a></li>
+            </ul>
+          </div>
+        </div>
+        <button class="collapsible">More &#11206;</button>
+          <div class="collapsible_content">
+              <p>More skills & certs to be added</p>
+          </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- ***** Contact ***** -->
@@ -209,15 +265,11 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          Want to learn more about me? Or have some advice? Or just want to say "Hi"?</br>
+          In any case, feel free to get in touch - I'm always available for a chat. The quickest way to reach out is via an email:
         </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        
+        <a href="mailto:aryan.tiwari246@gmail.com" class="btn btn--blue">aryan.tiwari246@gmail.com</a>
       </div>
     </div>
   </section>
@@ -229,34 +281,21 @@
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com//" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          <a href="mailto:aryan.tiwari246@gmail.com" target="_blank">
+            <img src="./images/mail.svg" title="Email ID" class="footer__social-image" alt="Mail">
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://github.com//" title="Link to Github Profile">
+          <a href="https://github.com/CursedWarrior/" title="Link to Github Profile" target="_blank">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
-        <!-- <li class="footer__social-link-item">
-          <a href="https://codepen.io/" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li> -->
         <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/in/aryan-tiwari1/" target="_blank">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
       </ul>
-
-      
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/to be donee"
-          frameborder="0" scrolling="0" width="170" height="20" title="test">
-        </iframe>
-      </div>
     </div>
   </footer>
 
