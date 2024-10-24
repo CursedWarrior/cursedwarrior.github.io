@@ -467,7 +467,7 @@ body:not(.user-is-tabbing) a:focus {
 
     .header__text {
         left: 50%;
-        width: 80%;
+        width: 90%;
         transform: translate(-50%, -50%);
     }
 
