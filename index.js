@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // Typing and deleting animation.
 
 const texts = [
-  "A motivated knowledge seeker..",
+  "A motivated knowledge seeker.",
   "A dedicated tech aficionado.",
   "A visionary business strategiest.",
   "A forward thinking leader.",
