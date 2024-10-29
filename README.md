@@ -1,4 +1,3 @@
 ﻿# Aryan's Portfolio
 
-cursedwarrior.github.io
-
+https://aryan.tiwari.dev
